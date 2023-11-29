@@ -1,0 +1,24 @@
+.faded {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+body {
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.custom-span {
+  background: linear-gradient(
+    270deg,
+    #f4cf81 3.12%,
+    #fff7d3 42.71%,
+    #fff7d3 58.85%,
+    #f4cf81 95.83%
+  ),
+  linear-gradient(0deg, #fff7ae, #fff7ae);
+  border: 3px solid #fff7ae;
+  border-radius: 52px;
+  box-shadow: 3px 3px 2px #b2935c inset;
+}
